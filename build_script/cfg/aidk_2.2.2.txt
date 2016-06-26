@@ -1,0 +1,126 @@
+{
+"BuildList": 
+[
+{ "Platform":"alx83x",
+  "AppName":"alx_acm_test",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_acm_test-alx83x-FreeRTOS-LwIP ota", 
+  "Output":["build.waf_bootloader-NoOS-NoNS-alx83x-SPI.binary",
+            "build.demo_alx_acm_test-alx83x-FreeRTOS-LwIP.binary",
+            "build.demo_alx_acm_test-alx83x-FreeRTOS-LwIP",
+            "build.waf_upgrade_trunk-FreeRTOS-LwIP-alx83x-SPI.binary"]},
+
+{ "Platform":"alx83x",
+  "AppName":"alx_acm_cfg_test",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_acm_cfg_test-alx83x-FreeRTOS-LwIP ota", 
+  "Output":["build.waf_bootloader-NoOS-NoNS-alx83x-SPI.binary",
+            "build.demo_alx_acm_cfg_test-alx83x-FreeRTOS-LwIP.binary",
+            "build.demo_alx_acm_cfg_test-alx83x-FreeRTOS-LwIP",
+            "build.waf_upgrade_trunk-FreeRTOS-LwIP-alx83x-SPI.binary"]},
+
+{ "Platform":"alx85x",
+  "AppName":"alx_acm_test",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_acm_test-alx85x-FreeRTOS-LwIP ota", 
+  "Output":["build.waf_bootloader-NoOS-NoNS-alx85x-SDIO.binary",
+            "build.demo_alx_acm_test-alx85x-FreeRTOS-LwIP.binary",
+            "build.demo_alx_acm_test-alx85x-FreeRTOS-LwIP",
+            "build.waf_upgrade_trunk-FreeRTOS-LwIP-alx85x-SDIO.binary"]},
+
+{ "Platform":"alx85x",
+  "AppName":"alx_acm_cfg_test",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_acm_cfg_test-alx85x-FreeRTOS-LwIP ota", 
+  "Output":["build.waf_bootloader-NoOS-NoNS-alx85x-SDIO.binary",
+            "build.demo_alx_acm_cfg_test-alx85x-FreeRTOS-LwIP.binary",
+            "build.demo_alx_acm_cfg_test-alx85x-FreeRTOS-LwIP",
+            "build.waf_upgrade_trunk-FreeRTOS-LwIP-alx85x-SDIO.binary"]},
+
+{ "Platform":"alx41x",
+  "AppName":"alx_411_dtu",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_41x_dtu-alx41x build", 
+  "Output":["build.alx_41x_dtu-alx41x-rom-ram-AiDK-release"]},
+
+{ "Platform":"alx41x",
+  "AppName":"alx_411_acm_proj",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_411_acm_proj-alx41x build", 
+  "Output":["build.alx_411_acm_proj-alx41x-rom-ram-AiDK-release"]},
+
+{ "Platform":"alx41x",
+  "AppName":"alx_418_midi",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_midi_lib_test-alx41x build", 
+  "Output":["build.alx_midi_lib_test-alx41x-rom-ram-AiDK-release"]},
+
+{ "Platform":"alx420",
+  "AppName":"alx_ble_420_acm_puart",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_ble_420-ALX420 \"ACM=1 OTA_FW_UPGRADE=1\" build", 
+  "Output":["build.alx_ble_420-ALX420-rom-ram-AiDK-release"]},
+
+{ "Platform":"alx420",
+  "AppName":"alx_ble_420_tm_puart",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_ble_420-ALX420 \"OTA_FW_UPGRADE=1\" build", 
+  "Output":["build.alx_ble_420-ALX420-rom-ram-AiDK-release"]},
+
+{ "Platform":"alx420",
+  "AppName":"alx_bt_420_acm_hci",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_bt_420-ALX420 \"ACM=1 DUART=HCI\" build", 
+  "Output":["build.alx_bt_420-ALX420-rom-ram-AiDK-release"]},
+
+{ "Platform":"alx420",
+  "AppName":"alx_bt_420_tm_hci",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_bt_420-ALX420 \"DUART=HCI\" build", 
+  "Output":["build.alx_bt_420-ALX420-rom-ram-AiDK-release"]},
+
+{ "Platform":"alx420",
+  "AppName":"alx_bt_420_acm_puart",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_bt_420-ALX420 \"ACM=1 DUART=PUART\" build", 
+  "Output":["build.alx_bt_420-ALX420-rom-ram-AiDK-release"]},
+
+{ "Platform":"alx420",
+  "AppName":"alx_bt_420_tm_puart",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_bt_420-ALX420 \"DUART=PUART\" build", 
+  "Output":["build.alx_bt_420-ALX420-rom-ram-AiDK-release"]},
+
+{ "Platform":"alx420",
+  "AppName":"alx_midi_420",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_midi_420-ALX420 \"OTA_FW_UPGRADE=1\" build", 
+  "Output":["build.alx_midi_420-ALX420-rom-ram-AiDK-release"]},
+
+{ "Platform":"alx420",
+  "AppName":"alx_bridge_dmst_420",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_bridge_dmst_420-ALX420 build", 
+  "Output":["build.alx_bridge_dmst_420-ALX420-rom-ram-AiDK-release"]},
+
+{ "Platform":"alx420",
+  "AppName":"alx_av_sink_plus_temp_420",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_av_sink_plus_temp_420-ALX420 \"OTA_FW_UPGRADE=1\" build", 
+  "Output":["build.alx_av_sink_plus_temp_420-ALX420-rom-ram-AiDK-release"]},
+
+{ "Platform":"alx420",
+  "AppName":"alx_av_sink_plus_midi_420",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_av_sink_plus_midi_420-ALX420 build", 
+  "Output":["build.alx_av_sink_plus_midi_420-ALX420-rom-ram-AiDK-release"]},
+
+{ "Platform":"alx420",
+  "AppName":"alx_iap2_420",
+  "Clean"  :"make.bat clean",
+  "Command":"make.bat demo.alx_iap2_420-ALX420 build", 
+  "Output":["build.alx_iap2_420-ALX420-rom-ram-AiDK-release"]},
+
+{ "Platform":""}
+]
+}
