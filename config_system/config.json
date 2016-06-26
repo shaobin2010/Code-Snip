@@ -1,0 +1,32 @@
+{
+"header":"_cfg_sys_header_",
+"appmode":"APP_TM",
+"Startmode":"START_TM",
+"fl_info":{
+    "ap_info":{
+    "ssid":"tenda_2g",
+    "password":"12345678",
+    "security":"WPA2_AES_PSK"
+    },
+"network_info":{
+    "server_type":"UDP",
+    "server_ip":"192.168.0.132",
+    "server_port":"2200"
+  }
+},
+"tm_cfg":{
+    "enable":"TRUE",
+    "pin_cfg":{
+        "restore_pin":"2",
+        "ota_pin":"3",
+        "ap_pin":"12",
+        "server_pin":"11",
+        "ps_state_pin":"10",
+        "ps_wakeup_pin":"9"
+    },
+  "port_cfg":{
+      "type":"UART",
+      "rate":"921600"
+    }
+}
+}
