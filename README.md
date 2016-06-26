@@ -1,2 +1,2 @@
 # Code-Snip
-Some usefule code snips
+Some useful code snips
